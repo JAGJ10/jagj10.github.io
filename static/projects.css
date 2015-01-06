@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+a.projectbutton {
+	color: black;
+	font: 35px "futura-pt";	
+	display: block;
+	width: 480px;
+	height: 359px;
+	padding-top: 0px;
+}
+
+a.projectbutton2 {
+	color: black;
+	font: 35px "futura-pt";	
+	display: block;
+	width: 425px;
+	height: 265px;
+	padding-top: 160px;
+}
+
+span.projecttitle {
+	background-color: white;
+	opacity: .5;
+}
+
+div.projectleftbar {
+	float:left;
+	text-align: center;
+	width: 425px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+div.projectrightbar {
+	float: right;
+	width: 425px;
+	text-align: center;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+div.projectmenu {
+	margin-top: -25px;
+}
+
+div.projectrow {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 900px;
+}
+
+div.projectimagerow {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	float:center;
+}
+
+
+div.projecttextleftbar {
+	float: left;
+	text-align: left;
+	width: 425px;
+}
+
+div.projecttextrightbar {
+	float:right;
+	width:425px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+div.projecttextrow {
+	margin-top: 15px;
+	float: left;
+}
+
+div.caption {
+	padding-left: 9px;
+	padding-right: 9px;
+	color: white;
+	background-color: #888888;
+	text-align: left;
+	font-size: 14px;
+}
+
+
+#thermo {
+	background-image: url("../images/thermo.png");
+}
+
+#thermo:hover {
+	
+}
