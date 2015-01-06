@@ -1,0 +1,79 @@
+// this is work in progress
+// inverted color scheme
+
+$bg: #1b1d1f
+$pink: #ff615f
+$black: #000
+
+$dark: #404448
+$silver: #b0b2b4
+$grey: #77797a
+
+$pink: #fcb514 
+
+$silver: desaturate(lighten($bg, 60%), 6%)
+$grey: desaturate(lighten($bg, 20%), 3%)
+
+body
+    background-color: $bg
+    color: $silver
+
+.menu ul li
+    a
+        color: $grey
+        &:hover
+            color: $silver
+    &.selected a
+        color: $pink
+
+.header
+    color: $black
+
+.grid
+    img
+        border-color: $black
+
+.main h2
+    a
+        color: #fff
+        &:hover
+            color: $silver
+
+.meta
+    color: $grey
+    a
+        color: $grey
+        &:hover
+            color: $pink
+
+a.typo
+    background: $black url(social.png) no-repeat
+    border-color: $black
+    background-position: 0px 0px
+    background-size: 140px 20px
+
+.post
+    p
+        img
+            border-color: $black
+        code
+            color: black
+    blockquote
+        border-color: $grey
+    .info
+        .name:after, .domain:after
+            color: $grey
+
+.browse
+    p:first-child
+        border-bottom: $dark 1px solid
+
+.archive
+    ol
+        li
+            a:hover
+                background-color: $black
+    .title
+        color: $silver !important
+    .date
+        color: $silver
