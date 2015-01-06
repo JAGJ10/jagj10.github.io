@@ -45,9 +45,9 @@ a.typo {
 .browse p:first-child {
   border-bottom: #404448 1px solid; }
 
-.archive ol li a:hover {
+.blog ol li a:hover {
   background-color: black; }
-.archive .title {
+.blog .title {
   color: #b5b6b7 !important; }
-.archive .date {
+.blog .date {
   color: #b5b6b7; }

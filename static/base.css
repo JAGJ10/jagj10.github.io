@@ -151,28 +151,28 @@ a.typo {
     .meta a:hover {
       color: #009ea0; }
 
-.archive ol {
+.blog ol {
   margin-top: -10px;
   font-size: 20px;
   list-style: none; }
-  .archive ol li {
+  .blog ol li {
     line-height: 40px;
     margin: 0 -15px; }
-    .archive ol li a {
+    .blog ol li a {
       padding: 0 15px;
       display: block;
       background-color: transparent;
       transition: background-color 0.5s;
       border-radius: 4px; }
-      .archive ol li a:hover {
+      .blog ol li a:hover {
         background-color: white; }
-.archive .title {
+.blog .title {
   color: #484440 !important; }
-.archive .date {
+.blog .date {
   font-weight: 300;
   text-transform: lowercase;
   float: right; }
-  .archive .date b {
+  .blog .date b {
     font-weight: 300;
     margin-right: 10px;
     color: #009ea0 !important; }
@@ -311,9 +311,9 @@ html {
     height: auto;
     margin-left: -6px; }
 
-  .archive .date {
+  .blog .date {
     display: none; }
-  .archive li a {
+  .blog li a {
     white-space: nowrap; } }
 @media (max-width: 375px) {
   .content {
