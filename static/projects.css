@@ -89,6 +89,9 @@ div.caption {
 
 #thermo {
 	background-image: url("../images/thermo.png");
+	border-width: 1px;
+	border-style: solid;
+	border-color: #01B7E5;
 }
 
 #thermo:hover {
