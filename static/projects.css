@@ -6,8 +6,8 @@ a.projectbutton {
 	color: black;
 	font: 35px "futura-pt";	
 	display: block;
-	width: 480px;
-	height: 359px;
+	width: 360px;
+	height: 269px;
 	padding-top: 0px;
 }
 
@@ -22,20 +22,20 @@ a.projectbutton2 {
 
 span.projecttitle {
 	background-color: white;
-	opacity: .5;
+	opacity: 0;
 }
 
 div.projectleftbar {
 	float:left;
 	text-align: center;
-	width: 425px;
+	width: 475px;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
 
 div.projectrightbar {
 	float: right;
-	width: 425px;
+	width: 475px;
 	text-align: center;
 	margin-left: 50px;
 	margin-bottom: 25px;
@@ -49,25 +49,25 @@ div.projectmenu {
 div.projectrow {
 	margin-top: 25px;
 	margin-bottom: 25px;
-	width: 900px;
+	width: 1000px;
 }
 
 div.projectimagerow {
 	margin-top: 25px;
 	margin-bottom: 15px;
-	float:center;
+	float: center;
 }
 
 
 div.projecttextleftbar {
 	float: left;
 	text-align: left;
-	width: 425px;
+	width: 475px;
 }
 
 div.projecttextrightbar {
 	float:right;
-	width:425px;
+	width: 475px;
 	text-align: left;
 	margin-left: 50px;
 }
@@ -89,7 +89,7 @@ div.caption {
 
 #thermo {
 	background-image: url("../images/thermo.png");
-	border-width: 1px;
+	border-width: 10px;
 	border-style: solid;
 	border-color: #01B7E5;
 }
