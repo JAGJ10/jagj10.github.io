@@ -2,29 +2,36 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
-a.projectbutton {
+a.button {
 	background-color: black;
+	background-size: 100% 100%;
 	display: block;
 	height: 300px;
 }
 
-span.projecttitle {
+a.title {
+	position: absolute;
 	background-color: transparent;
 	color: white;
 	font: 35px "Source Sans Pro";
-	opacity: 0;
+	opacity: 1;
+	bottom: 50%;
+	left: 0;
+	right: 0;
 }
 
-div.projectleftbar {
+div.lefttile {
 	float: left;
 	position: relative;
+	text-align: center;
 	width: 47.5%;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
 
-div.projectrightbar {
+div.righttile {
 	float: right;
+	position: relative;
 	width: 47.5%;
 	margin-bottom: 25px;
 	margin-top: 25px;
@@ -34,7 +41,7 @@ div.projectmenu {
 	margin-top: -50px;
 }
 
-div.projectrow {
+div.row {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -53,7 +60,7 @@ div.projectrow {
 	opacity: 0.35;
 }
 
-#thermo:hover .projecttitle {
+#thermoid:hover {
 	-moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
