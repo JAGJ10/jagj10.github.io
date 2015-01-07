@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 a.projectbutton {
+	background-color: black;
 	color: black;
 	font: 35px "futura-pt";	
 	display: block;
@@ -95,5 +96,8 @@ div.caption {
 }
 
 #thermo:hover {
-	
+	-moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+	opacity: 0.5;
 }
