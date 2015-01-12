@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 
 a.button {
+	position: relative;
 	background-color: black;
 	display: block;
 }
@@ -11,13 +12,13 @@ a.button {
 	width: 100%;
 }
 
-a.title {
+span.title {
 	position: absolute;
 	background-color: transparent;
 	color: white;
 	font: 35px "Source Sans Pro";
 	opacity: 1;
-	bottom: 50%;
+	bottom: 0;
 	left: 0;
 	right: 0;
 }
@@ -40,7 +41,7 @@ div.righttile {
 }
 
 div.projectmenu {
-	margin-top: -3%;
+	margin-top: -5%;
 }
 
 div.row {
