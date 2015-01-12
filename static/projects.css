@@ -8,6 +8,10 @@ a.button {
 	display: block;
 }
 
+.button img {
+	width: 100%;
+}
+
 a.title {
 	position: absolute;
 	background-color: transparent;
