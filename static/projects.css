@@ -61,6 +61,7 @@ div.row {
 	}
 
 	#thermo {
+		width: 100%;
 		border-width: 3px;
 		border-style: solid;
 		border-color: #01B7E5;
