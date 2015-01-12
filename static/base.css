@@ -303,8 +303,6 @@ html {
     height: auto;
     margin-left: -6px; }
 
-  .blog .date {
-    display: none; }
   .blog li a {
     white-space: nowrap; } }
 @media (max-width: 375px) {
