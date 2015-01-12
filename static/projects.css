@@ -4,7 +4,6 @@
 
 a.button {
 	background-color: black;
-	background-size: 100% 100%;
 	display: block;
 }
 
@@ -53,6 +52,14 @@ div.row {
 	border-width: 10px;
 	border-style: solid;
 	border-color: #01B7E5;
+}
+
+@media (max-width: 640px) {
+	#thermo {
+		border-width: 3px;
+		border-style: solid;
+		border-color: #01B7E5;
+	}
 }
 
 #thermo:hover {
