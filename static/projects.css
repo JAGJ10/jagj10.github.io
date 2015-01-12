@@ -6,7 +6,6 @@ a.button {
 	background-color: black;
 	background-size: 100% 100%;
 	display: block;
-	height: 300px;
 }
 
 a.title {
@@ -47,7 +46,6 @@ div.row {
 }
 
 #thermo {
-	background-image: url("../images/thermo.png");
 	border-width: 10px;
 	border-style: solid;
 	border-color: #01B7E5;
@@ -57,7 +55,7 @@ div.row {
 	-moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-	opacity: 0.35;
+	opacity: 0.5;
 }
 
 #thermoid:hover {

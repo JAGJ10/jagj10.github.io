@@ -14,8 +14,8 @@
 body {
   background-color: #e4e2e0;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 20px;
+  line-height: 24px;
   color: #484440;
   text-rendering: optimizeLegibility; }
 
@@ -40,13 +40,12 @@ a.typo {
   height: 20px;
   width: 20px;
   border: #ccc8c5 3px solid;
+  -moz-transition: background-color 0.5s, border 0.5s, box-shadow 1.5s;
+  -webkit-transition: background-color 0.5s, border 0.5s, box-shadow 1.5s;
   transition: background-color 0.5s, border 0.5s, box-shadow 1.5s; }
   a.typo:hover {
     background-color: #b4b2b0;
     border-color: white; }
-  a.typo.behance:hover {
-    border-color: #1769ff;
-    background-color: #1769ff; }
   a.typo.rss {
     background-position: -120px 0px; }
     a.typo.rss:hover {
@@ -57,26 +56,11 @@ a.typo {
     a.typo.twitter:hover {
       border-color: #00aced;
       background-color: #00aced; }
-  a.typo.tumblr {
-    background-position: -80px 0px; }
-    a.typo.tumblr:hover {
-      border-color: #2c4762;
-      background-color: #2c4762; }
-  a.typo.instagram {
-    background-position: -60px 0px; }
-    a.typo.instagram:hover {
-      border-color: #3f729b;
-      background-color: #3f729b; }
   a.typo.github {
     background-position: -40px 0px; }
     a.typo.github:hover {
       border-color: #444444;
       background-color: #444444; }
-  a.typo.dribbble {
-    background-position: -20px 0px; }
-    a.typo.dribbble:hover {
-      border-color: #ea4c89;
-      background-color: #ea4c89; }
 
 .content {
   width: 60%;
