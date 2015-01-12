@@ -63,11 +63,18 @@ div.row {
 	}
 }
 
-#thermo:hover {
+#thermo:hover img {
 	-moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
 	opacity: 0.5;
+
+	.title {
+		-moz-transition: all .5s;
+	    -webkit-transition: all .5s;
+	    transition: all .5s;
+		opacity: 0.5;
+	}
 }
 
 #thermoid:hover {
