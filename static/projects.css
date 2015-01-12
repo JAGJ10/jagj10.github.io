@@ -6,6 +6,7 @@ a.button {
 	position: relative;
 	background-color: black;
 	display: block;
+	text-align: center;
 }
 
 .button img {
@@ -18,9 +19,9 @@ span.title {
 	color: white;
 	font: 35px "Source Sans Pro";
 	opacity: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
+	padding-top: 33%;
 }
 
 div.lefttile {
