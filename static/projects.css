@@ -27,16 +27,16 @@ div.lefttile {
 	position: relative;
 	text-align: center;
 	width: 47.5%;
-	margin-bottom: 2%;
-	margin-top: 2%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
 }
 
 div.righttile {
 	float: right;
 	position: relative;
 	width: 47.5%;
-	margin-bottom: 2%;
-	margin-top: 2%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
 }
 
 div.projectmenu {
@@ -44,8 +44,8 @@ div.projectmenu {
 }
 
 div.row {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
 }
 
 #thermo {
