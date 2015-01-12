@@ -56,6 +56,10 @@ div.row {
 }
 
 @media (max-width: 640px) {
+	.title {
+		font-size: 12px;
+	}
+	
 	#thermo {
 		border-width: 3px;
 		border-style: solid;
