@@ -9,25 +9,11 @@ a.button {
 	text-align: center;
 }
 
-.button:before {
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-
 .button img {
 	width: 100%;
 }
 
-b.title2 {
-	display: inline-block;
-	vertical-align: middle;
-	width: 75%;
-}
-
 span.title {
-	position: absolute;
 	background-color: transparent;
 	color: white;
 	font: 35px "Source Sans Pro";
@@ -35,6 +21,22 @@ span.title {
 	left: 0;
 	right: 0;
 	vertical-align: middle;
+}
+
+div.wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.wrap:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em;
 }
 
 div.lefttile {
