@@ -1,6 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+.main h2 {
+	color: white;
+	font-size: 34px;
+	line-height: 38px;
+	letter-spacing: 0px;
+}
+
+.main p {
+	color: lightgray;
+	font-size: 24px;
+}
 
 a.button {
 	position: relative;
@@ -16,7 +24,7 @@ a.button {
 div.title {
 	background-color: transparent;
 	color: white;
-	font: 35px "Source Sans Pro";
+	font: 35px "Ubuntu";
 	opacity: 0;
 	left: 0;
 	right: 0;
