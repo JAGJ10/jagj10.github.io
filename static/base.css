@@ -63,9 +63,15 @@ a.typo {
       background-color: #444444; }
 
 .content {
-  width: 60%;
+  width: 1160px;
   margin: 0 auto;
   overflow: hidden; }
+
+@media (max-width: 1200px) {
+  .content {
+    width: 95%;
+  }
+}
 
 .menu {
   padding: 18px 0 14px 0;
@@ -198,7 +204,7 @@ a.typo {
     color: gray; }
   .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
     text-indent: 40px;
-    color: #009ea0; }
+    color: #01B7E5; }
   .post h1 {
     font-size: 30px;
     font-weight: 300;
