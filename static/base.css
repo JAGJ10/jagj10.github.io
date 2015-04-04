@@ -5,7 +5,7 @@
   background: #fedd92; }
 
 ::selection {
-  background: #fedd92; }
+  background: #01B7E5; }
 
 * {
   margin: 0;
@@ -312,7 +312,7 @@ a.typo {
   .page h2 {
     font-size: 28px;
     font-weight: 300;
-    line-height: 32px;4A4A4A
+    line-height: 32px;
     margin: 16px 0; }
   .page h3 {
     font-size: 24px;

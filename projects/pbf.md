@@ -1,6 +1,7 @@
 ---
 layout:     page
 title:      "Position Based Fluids"
+section:	index
 style:		dark
 ---
 
@@ -40,3 +41,4 @@ The following papers are other methods that are currently in NVIDIA's FleX and w
 - [Screen Space Fluid Rendering](http://developer.download.nvidia.com/presentations/2010/gdc/Direct3D_Effects.pdf) - The main resource used for the rendering of the fluid.
 - [Unified Spray, Foam and Bubbles for Particle-Based Fluids](http://cg.informatik.uni-freiburg.de/publications/2012_CGI_sprayFoamBubbles.pdf) - Used as a guide (with adjustments made by Miles Macklin) for the generation of diffuse particles.
 - [Screen Space Foam Rendering](http://cg.informatik.uni-freiburg.de/publications/2013_WSCG_foamRendering.pdf) - The method (followed closely, but not exactly) for rendering diffuse particles.
+- [Particle Simulation using CUDA](http://docs.nvidia.com/cuda/samples/5_Simulations/particles/doc/particles.pdf) - The method used for constructing the grid and neighbor finding.

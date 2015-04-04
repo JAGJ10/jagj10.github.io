@@ -13,15 +13,15 @@
 a.button {
 	position: relative;
 	background-color: black;
-	display: block;
+	display: inline-block;
 	text-align: center;
 }
 
 .button img {
 	overflow: hidden;
 	display: block;
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
 	max-width: 500px;
 	max-height: 500px;
 }
