@@ -42,8 +42,6 @@ a.typo {
 .post .info .name:after, .post .info .domain:after {
   color: #4d5053; }
 
-.page p img {
-  border-color: black; }
 .page p code {
   color: black; }
 .page blockquote {

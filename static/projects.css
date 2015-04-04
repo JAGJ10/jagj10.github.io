@@ -18,7 +18,12 @@ a.button {
 }
 
 .button img {
+	overflow: hidden;
+	display: block;
 	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 500px;
 }
 
 div.title {
@@ -74,7 +79,7 @@ div.row {
 }
 
 #imageThumb {
-	border-width: 10px;
+	border-width: 5px;
 	border-style: solid;
 	border-color: #01B7E5;
 }
