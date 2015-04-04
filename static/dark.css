@@ -42,6 +42,15 @@ a.typo {
 .post .info .name:after, .post .info .domain:after {
   color: #4d5053; }
 
+.page p img {
+  border-color: black; }
+.page p code {
+  color: black; }
+.page blockquote {
+  border-color: #4d5053; }
+.page .info .name:after, .page .info .domain:after {
+  color: #4d5053; }
+
 .browse p:first-child {
   border-bottom: #404448 1px solid; }
 

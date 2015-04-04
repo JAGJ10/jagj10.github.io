@@ -97,7 +97,7 @@ a.typo {
   overflow: hidden; }
   .header h1 {
     font-weight: bold;
-    font-size: 72px;
+    font-size: 48px;
     line-height: 96px;
     letter-spacing: -2px;
     white-space: nowrap; }
@@ -260,6 +260,108 @@ a.typo {
       color: #b4b2b0;
       content: " dot "; }
     .post .info strong {
+      font-weight: normal;
+      width: 40px;
+      display: block;
+      float: left;
+      color: #b4b2b0;
+      text-align: right;
+      margin-right: 20px; }
+
+.page {
+  margin-bottom: 30px; }
+  .page p {
+    text-indent: 0px; }
+    .page p:first-child {
+      text-indent: 0; }
+    .page p img {
+      margin: 0px 0;
+      display: block;
+      border: white 6px solid;
+      border-radius: 4px;
+      width: 100%;
+      height: auto; }
+    .page p sup {
+      font-size: 12px;
+      line-height: 15px;
+      color: #b4b2b0; }
+    .page p code {
+      background-color: #009ea0;
+      color: white;
+      padding: 0 4px;
+      border-bottom: #009ea0 2px solid;
+      border-radius: 4px; }
+  .page ul {
+    list-style: square;
+    margin-left: 40px; }
+  .page ol {
+    margin-left: 0px; }
+  .page code {
+    font-family: "Ubuntu Mono", monospace; }
+  .page h1, .page h2, .page h3, .page h4, .page h5, .page h6 {
+    text-indent: 0px;
+    color: #009ea0; }
+  .page h1 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 18px 0; }
+  .page h2 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 16px 0; }
+  .page h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 14px 0; }
+  .page h4 {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: normal;
+    margin: 8px 0; }
+  .page h5, .page h6 {
+    font-size: 13px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin: 10px 0; }
+  .page blockquote {
+    margin-left: 20px;
+    border-left: #b4b2b0 1px solid;
+    padding-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .page blockquote p {
+      text-indent: 0; }
+  .page a {
+    background-color: #fedd92;
+    color: #484440;
+    border-bottom: #fedd92 2px solid;
+    border-radius: 4px;
+    padding: 0 4px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s; }
+    .page a:hover {
+      background-color: #fcb514;
+      border-bottom: #fcb514 2px solid; }
+    .page a.follow {
+      background-color: #fedd92;
+      border-bottom: #fedd92 2px solid; }
+      .page a.follow:hover {
+        color: #484440;
+        background-color: #fcb514;
+        border-bottom: #fcb514 2px solid; }
+  .page .info {
+    font-style: italic;
+    text-indent: 0; }
+    .page .info .name:after {
+      font-style: italic;
+      color: #b4b2b0;
+      content: " at "; }
+    .page .info .domain:after {
+      font-style: italic;
+      color: #b4b2b0;
+      content: " dot "; }
+    .page .info strong {
       font-weight: normal;
       width: 40px;
       display: block;
