@@ -73,7 +73,7 @@ div.row {
 	margin-bottom: 2.5%;
 }
 
-#thermo {
+#imageThumb {
 	border-width: 10px;
 	border-style: solid;
 	border-color: #01B7E5;
@@ -84,7 +84,7 @@ div.row {
 		font-size: 12px;
 	}
 
-	#thermo {
+	#imageThumb {
 		border-width: 3px;
 		border-style: solid;
 		border-color: #01B7E5;
@@ -99,21 +99,21 @@ div.row {
 	}
 }
 
-#thermo:hover img {
+#imageThumb:hover img {
 	-moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
 	opacity: 0.5;
 }
 
-#thermo:hover div {
+#imageThumb:hover div {
 	-moz-transition: all .5s;
 	-webkit-transition: all .5s;
 	transition: all .5s;
 	opacity: 1;
 }
 
-#thermoid:hover {
+#imageThumbid:hover {
 	-moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
