@@ -27,7 +27,9 @@ The code is also available at my [github repository](https://github.com/JAGJ10/P
 I would like to personally thank Professor [Doug James](http://www.cs.cornell.edu/~djames/), [Tim Langlois](http://www.cs.cornell.edu/~langlois/), [Eston Schweickart](http://www.cs.cornell.edu/~ers/), and [Miles Macklin](http://blog.mmacklin.com/) for their help and constant willingness to answer any and all questions.
 
 ### Future Work ###
-Given more time the following are other methods that I would like to implement into the current framework.
+The following papers are other methods that are currently in NVIDIA's FleX and would improve the simulation's realism.
+<pre></pre>
+
 - [Versatile Surface Tension and Adhesion for SPH Fluids](http://cg.informatik.uni-freiburg.de/publications/2013_SIGGRAPHASIA_surfaceTensionAdhesion.pdf)
 - [Reconstructing Surfaces of Particle-Based Fluids Using Anisotropic Kernels](http://www.cc.gatech.edu/~turk/my_papers/particle_surfaces_tog.pdf)
 - [Two-way Coupling of Fluids to Rigid and Deformable Solids and Shells](http://physbam.stanford.edu/~fedkiw/papers/stanford2008-01.pdf)
