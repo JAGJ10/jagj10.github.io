@@ -11,7 +11,7 @@ style:		dark
 *A frame from a Dam Break scene. 50k fluid particles and up to 500k diffuse particles were simulated at ~10-15fps*
 
 ### Overview ###
-This is an implementation of the paper "Position Based Fluids" (Macklin 2014) I wrote from scratch to try my hand at a fluid simulation that could be run in real-time. Thanks to the parallel nature of the method, it is possible to run tens to hundreds of thousands of particles at interactive or nearly interactive frame rates. My implementation is capable of running 50k fluid particles with up to 500k diffuse particles at 10-15 fps on current hardware. OpenGL was used for the rendering. The official implementation (developed by Macklin and NVIDIA) can be seen in the [NVIDIA FleX framework](https://developer.nvidia.com/physx-flex).
+This is an implementation of the paper [Position Based Fluids](http://mmacklin.com/pbf_sig_preprint.pdf) (Macklin 2014) I wrote from scratch to try my hand at a fluid simulation that could be run in real-time. Thanks to the parallel nature of the method, it is possible to run tens to hundreds of thousands of particles at interactive or nearly interactive frame rates. My implementation is capable of running 50k fluid particles with up to 500k diffuse particles at 10-15 fps on current hardware. OpenGL was used for the rendering. The official implementation (developed by Macklin and NVIDIA) can be seen in the [NVIDIA FleX framework](https://developer.nvidia.com/physx-flex).
 <pre></pre>
 This project was developed from Fall 2014 - Spring 2015.
 <pre></pre>
