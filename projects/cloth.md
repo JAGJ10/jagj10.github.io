@@ -33,7 +33,7 @@ I would like to personally thank Professor [Doug James](http://www.cs.cornell.ed
 Given the flexibility of the system, there is a lot of potential for future development (as seen by NVIDIA's developing framework upon which this project was based). Possible improvements include better rendering, dynamic cloth tearing (through constraint removal), rigid body physics, smoke, granular materials, and deformation. 
 
 ### Video ###
-<iframe width="1024" height="512" src="https://www.youtube.com/embed/OuG6TPz9fAw" frameborder="0" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/OuG6TPz9fAw" frameborder="0" allowfullscreen></iframe>
 
 ### Resources ###
 - [Position Based Fluids](http://jagj10.github.io/projects/pbf.html) - Please see my other project page for a description of how the fluid was created
