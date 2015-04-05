@@ -63,11 +63,11 @@ a.typo {
       background-color: #444444; }
 
 .content {
-  width: 1160px;
+  width: 1280px;
   margin: 0 auto;
   overflow: hidden; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .content {
     width: 95%;
   }
