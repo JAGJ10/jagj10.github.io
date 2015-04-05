@@ -35,6 +35,10 @@ The following papers are other methods that are currently in NVIDIA's FleX and w
 - [Reconstructing Surfaces of Particle-Based Fluids Using Anisotropic Kernels](http://www.cc.gatech.edu/~turk/my_papers/particle_surfaces_tog.pdf)
 - [Two-way Coupling of Fluids to Rigid and Deformable Solids and Shells](http://physbam.stanford.edu/~fedkiw/papers/stanford2008-01.pdf)
 
+### Video ###
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/9Wh3ano4kJw" frameborder="0" allowfullscreen></iframe>
+*280k fluid particles and up to 2m diffuse particles were simulated at 2-4 fps*
+
 ### Resources ###
 
 - [Position Based Fluids](http://mmacklin.com/pbf_sig_preprint.pdf) - The main paper which explains the solver for the simulation.
