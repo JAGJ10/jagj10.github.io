@@ -12,7 +12,7 @@ style:		dark
 
 ### Overview ###
 This is a follow-up project to my [Position Based Fluids](http://jagj10.github.io/projects/pbf.html) implementation.
-
+<pre></pre>
 My goal with this project was to develop an application in the spirit of [NVIDIA's FleX framework](https://developer.nvidia.com/physx-flex) which allows particles of different types to interact without the difficulties usually encountered when integrating several different physics systems. Similar to FleX, I built my application on top of the Position Based Fluids framework which has several nice properties, such as efficient neighbor finding using a uniform grid. Using the same radius for all types of particles allows the contacts to be solved in an efficient way by generating special contact constraints between interacting particles before the general constraint loop. My implementation currently consists of just Cloth and Fluid, but would easily be extensible to rigid bodies and smoke particles as well. The rendering was all done using OpenGL and the physics is performed in parallel on the GPU and runs in real-time at interactive framerates (depenedent on resolution of the simulation, of course).
 <pre></pre>
 This project was developed during Spring 2015.
