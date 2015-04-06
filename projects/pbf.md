@@ -8,7 +8,7 @@ style:		dark
 ### A CUDA/C++ Fluid Simulation ###
 
 ![A frame from the simulation](../images/fluid.png)
-*A frame from a Dam Break scene. 50k fluid particles and up to 500k diffuse particles were simulated at ~10-15fps*
+*A frame from a Dam Break scene. 50k fluid particles and up to 500k diffuse particles were simulated at ~10-15 fps*
 
 ### Overview ###
 This is an implementation of the paper [Position Based Fluids](http://mmacklin.com/pbf_sig_preprint.pdf) (Macklin 2014) I wrote from scratch to try my hand at a fluid simulation that could be run in real-time. Thanks to the parallel nature of the method, it is possible to run tens to hundreds of thousands of particles at interactive or nearly interactive frame rates. My implementation is capable of running 50k fluid particles with up to 500k diffuse particles at 10-15 fps on current hardware. OpenGL was used for the rendering. The official implementation (developed by Macklin and NVIDIA) can be seen in the [NVIDIA FleX framework](https://developer.nvidia.com/physx-flex).
@@ -36,7 +36,7 @@ The following papers are other methods that are currently in NVIDIA's FleX and w
 - [Two-way Coupling of Fluids to Rigid and Deformable Solids and Shells](http://physbam.stanford.edu/~fedkiw/papers/stanford2008-01.pdf)
 
 ### Video ###
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/9Wh3ano4kJw" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="720" src="https://www.youtube.com/embed/9Wh3ano4kJw" frameborder="0" allowfullscreen></iframe>
 *280k fluid particles and up to 2m diffuse particles were simulated at 2-4 fps*
 
 ### Resources ###
