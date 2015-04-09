@@ -5,10 +5,10 @@ section:	index
 style:		dark
 ---
 
-### A CUDA/C++ Fluid-Cloth Two-Way Coupling ###
+### A CUDA/C++ Fluid-Cloth Coupling ###
 
 ![A frame from the simulation](../images/cloth.png)
-*1k fluid particles were dropped onto a cloth of 4k vertices. Two-way coupling is realized, evident by the fluid pushing the cloth down.*
+*1k fluid particles were dropped onto a cloth of 4k vertices. Two-way interaction is realized, evident by the fluid pushing the cloth down.*
 
 ### Overview ###
 This is a follow-up project to my [Position Based Fluids](http://jagj10.github.io/projects/pbf.html) implementation.
@@ -26,10 +26,9 @@ The code is also available at my [github repository](https://github.com/JAGJ10/P
 - **Long Range Attachments** - This simple method is used with "pinned" vertices in the cloth and helps create a much more stable simulation. Every non-pinned particle in the cloth has a simple distance constraint with the pinned particle that only acts once the distance exceeds the initial distance. This prevents over-stretching and helps convergence in the Jacobi updates.
 
 ### Acknowledgments ###
-I would like to personally thank Professor [Doug James](http://www.cs.cornell.edu/~djames/), and [Tim Langlois](http://www.cs.cornell.edu/~langlois/) for their help and constant willingness to answer any and all questions.
+I would like to personally thank Professor [Doug James](http://www.cs.cornell.edu/~djames/) and [Tim Langlois](http://www.cs.cornell.edu/~langlois/) for their help and constant willingness to answer any and all questions.
 
 ### Future Work ###
-
 Given the flexibility of the system, there is a lot of potential for future development (as seen by NVIDIA's developing framework upon which this project was based). Possible improvements include better rendering, dynamic cloth tearing (through constraint removal), rigid body physics, smoke, granular materials, and deformation. 
 
 ### Video ###
