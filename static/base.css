@@ -238,22 +238,11 @@ a.typo {
     .post blockquote p {
       text-indent: 0; }
   .post a {
-    background-color: #fedd92;
-    color: #484440;
-    border-bottom: #fedd92 2px solid;
-    border-radius: 4px;
+    color: #C2D41E;
     padding: 0 4px;
     transition: background-color 0.3s, color 0.3s, border 0.3s; }
     .post a:hover {
-      background-color: #fcb514;
-      border-bottom: #fcb514 2px solid; }
-    .post a.follow {
-      background-color: #fedd92;
-      border-bottom: #fedd92 2px solid; }
-      .post a.follow:hover {
-        color: #484440;
-        background-color: #fcb514;
-        border-bottom: #fcb514 2px solid; }
+      background-color: #4A4A4A; }
   .post .info {
     font-style: italic;
     text-indent: 0; }
