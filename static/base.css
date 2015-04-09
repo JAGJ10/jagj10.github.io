@@ -271,7 +271,7 @@ a.typo {
     .page p:first-child {
       text-indent: 0; }
     .page p img {
-      margin: 0px 0;
+      margin: 0px auto;
       display: block;
       width: 100%;
       height: auto; }
