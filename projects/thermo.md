@@ -7,7 +7,7 @@ style:		dark
 
 ### A Puzzle-Platformer written in Actionscript 3 ###
 
-<img src="../images/thermo.png" alt="A screenshot from the game" style="max-width:640px;">
+<img src="../images/thermo.png" alt="A screenshot from the game" style="max-width:640px;" align="middle">
 *A screenshot from a level in the game.*
 
 ### Overview ###
