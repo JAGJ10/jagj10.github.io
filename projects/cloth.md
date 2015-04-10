@@ -1,11 +1,11 @@
 ---
 layout:     page
-title:      "Fluid-Cloth Interaction"
+title:      "Fluid-Cloth Two-Way Coupling"
 section:	index
 style:		dark
 ---
 
-### A CUDA/C++ Fluid-Cloth Coupling ###
+### A CUDA/C++ Fluid-Cloth Simulation ###
 
 ![A frame from the simulation](../images/cloth.png)
 *1k fluid particles were dropped onto a cloth of 4k vertices. Two-way interaction is realized, evident by the fluid pushing the cloth down.*
