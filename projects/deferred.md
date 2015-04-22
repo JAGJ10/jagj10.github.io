@@ -8,7 +8,7 @@ style:		dark
 ### A Rendering Engine written in C++ and OpenGL
 
 ![The Rungholt scene rendered with simple diffuse lighting and SSAO](../images/deferred.png)
-*The Rungholt scene rendered with simple diffuse lighting and SSAO*
+*The Rungholt scene rendered with diffuse lighting, SSAO, and shadow mapping*
 
 ### Overview ###
 This rendering engine, which is still under development, is being used in "Array", an upcoming 3D puzzle-action game for Cornell's Advanced Game Design class. I am also using this as an opportunity to explore what it takes to create a complete rendering engine from scratch. The goal for this project is to create an engine capable of a toon-shading style with advanced post-processing effects and support for various light volumes while still being performant enough to support a real-time game.
@@ -21,8 +21,8 @@ The code is also available at my [github repository](https://github.com/JAGJ10/D
 - **Octree** - A data structure used for spatial partitioning which culls objects not currently in the view area. This decreases the amount of geometry that needs to be drawn each frame, greatly increasing performance.
 - **Screen-Space Ambient Occlusion** - Using the hemisphere variant of the technique developed by Crytek, a cheap ambient occlusion calculation is made before lighting is computed. This gives a greater sense of depth by making "occluded" areas darker.
 - **Light Volumes** - Point lights and spot lights are represented by meshes which allows the lighting calculations to only be performed on pixels within the affected area. This greatly decreases computational costs which is important when many lights are in the scene.
+- **Shadow Mapping** - Shadow maps are calculated for each light in the scene at half resolution (with the exception of the directional light which will have a larger resolution for quality) to generate shadows in the scene. Since shadow mapping is a relatively cheap operation, it will be possible to do this even for a large amount of light geometry. Additionally, Percentage Closer Filtering is used to generate softer shadows for the edges.
 - **Depth of Field (under development)** - This effect will blur the part of the screen that is not centered, giving a kind of "focus" to what the camera is currently looking at.
-- **Shadow Mapping (under development** - Shadow maps will be calculated for each light in the scene at half resolution (with the exception of the directional light which will have a larger resolution for quality) to generate shadows in the scene. Since shadow mapping is a relatively cheap operation, it will be possible to do this even for a large amount of light geometry.
 - **Bloom (under development)** - By making a copy of the current frame and slightly blurring it, a simple bloom effect can be achieved. This will make the bright areas "bleed" over into other areas which enhances the realism of the scene. Even with toon-shading, this feature can have a pleasant effect as seen in the Wii U version of The Legend of Zelda - Wind Waker.
 
 ### Acknowledgements ###
