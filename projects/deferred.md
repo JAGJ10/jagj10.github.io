@@ -35,4 +35,4 @@ I would like to personally thank Professor [Steve Marschner](http://www.cs.corne
 *SSAO combined with 50 randomly generated point lights placed throughout the scene with various colors*
 
 ### Resources ###
-Almost all of the resources used thus far have been tutorials and forums online. Since these are too numerous to list, I encourage anyone who is interested in learning more about deferred shading to start from the ground up and try creating their own. Throughout development I have found that there is no "correct" way of implementing the pipeline and that it is all depenedent on what the engine is being used for.
+Almost all of the resources used thus far have been tutorials and forums online. Since these are too numerous to list, I encourage anyone who is interested in learning more about deferred shading to start from the ground up and try creating their own. Throughout development I have found that there is no "correct" way of implementing the pipeline and that it all depends on what the engine is being used for.
