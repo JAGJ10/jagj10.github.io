@@ -403,5 +403,17 @@ html {
     height: auto;
     margin-left: -6px; }
 
+  .page h1 {
+    font-size: 24px;
+  }
+
+  .page h2 {
+    font-size: 12px;
+  }
+
+  .page h3 {
+    font-size: 8px;
+  }
+
   .blog li a {
     white-space: nowrap; } }
