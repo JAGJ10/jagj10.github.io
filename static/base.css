@@ -398,6 +398,10 @@ html {
     height: auto;
     margin-left: -6px; }
 
+  .page {
+    font-size: 10px;
+  }
+
   .page p img {
     width: 100%;
     height: auto;
