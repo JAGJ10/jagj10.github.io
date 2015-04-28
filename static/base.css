@@ -404,20 +404,25 @@ html {
     margin-left: -6px; }
 
   .page h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .page h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .page h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .page p sup {
     font-size: 10px;
   }
 
+  .body {
+    font-size: 10px;
+  }
+
   .blog li a {
-    white-space: nowrap; } }
+    white-space: nowrap; } 
+}
