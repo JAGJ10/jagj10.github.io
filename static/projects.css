@@ -107,6 +107,17 @@ div.row {
 		border-color: #01B7E5;
 	}
 
+	div.title {
+		background-color: transparent;
+		color: white;
+		font: 24px "Ubuntu";
+		opacity: 0;
+		left: 0;
+		right: 0;
+		vertical-align: middle;
+		opacity: 1;
+	}
+
 	div.lefttile {
 		width: 100%;
 	}
