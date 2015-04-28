@@ -37,9 +37,6 @@ The following papers are other methods that are currently in NVIDIA's FleX and w
 
 ### Video ###
 <iframe width="100%" height="720" src="https://www.youtube.com/embed/9Wh3ano4kJw" frameborder="0" allowfullscreen>
-@media (max-width: 640px) {
-	height="auto"
-}
 </iframe>
 *280k fluid particles and up to 2m diffuse particles were simulated at 2-4 fps*
 

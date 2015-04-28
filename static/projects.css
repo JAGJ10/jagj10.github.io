@@ -111,6 +111,9 @@ div.row {
 	div.title {
 		font: 18px "Ubuntu";
 		opacity: 1;
+		left: 0;
+		right: 0;
+		vertical-align: middle;
 	}
 
 	div.lefttile {
