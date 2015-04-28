@@ -104,7 +104,7 @@ div.row {
 	}
 
 	#imageThumb .wrap {
-		opacity: 0.6;
+		background: rgba(0, 0, 0, 0.6);
 	}
 
 	div.title {
