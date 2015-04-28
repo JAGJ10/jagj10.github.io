@@ -102,19 +102,14 @@ div.row {
 	}
 
 	#imageThumb {
+		background: rgba(0, 0, 0, 0.6);
 		border-width: 3px;
 		border-style: solid;
 		border-color: #01B7E5;
 	}
 
 	div.title {
-		background-color: transparent;
-		color: white;
-		font: 24px "Ubuntu";
-		opacity: 0;
-		left: 0;
-		right: 0;
-		vertical-align: middle;
+		font: 18px "Ubuntu";
 		opacity: 1;
 	}
 
