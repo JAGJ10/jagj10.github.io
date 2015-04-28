@@ -400,7 +400,7 @@ html {
 
   .page {
     font-size: 12px;
-    line-height: 10px;
+    line-height: 12px;
   }
 
   .page p img {
@@ -409,15 +409,15 @@ html {
     margin-left: -6px; }
 
   .page h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .page h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .page h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .page p sup {
