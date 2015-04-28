@@ -399,7 +399,8 @@ html {
     margin-left: -6px; }
 
   .page {
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 5px;
   }
 
   .page p img {
@@ -420,15 +421,15 @@ html {
   }
 
   .page p sup {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .page a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .blog li a {

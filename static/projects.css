@@ -114,6 +114,14 @@ div.row {
 		right: 0;
 		vertical-align: middle;
 	}
+
+	div.lefttile {
+		width: 100%;
+	}
+
+	div.righttile {
+		width: 100%;
+	}
 }
 
 #imageThumb:hover .wrap {
