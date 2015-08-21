@@ -31,8 +31,10 @@ I would like to personally thank Professor [Steve Marschner](http://www.cs.corne
 ### Screenshots ###
 ![The Rungholt scene rendered with simple diffuse lighting and SSAO](../images/deferred2.png)
 *SSAO combined with 50 randomly generated point lights placed throughout the scene with various colors*
+<pre></pre>
 ![The Rungholt scene rendered with simple diffuse lighting and SSAO](../images/ssao.png)
 *The result of the SSAO pass in the same scene as above (from a different angle)*
+<pre></pre>
 ![The Rungholt scene rendered with simple diffuse lighting and SSAO](../images/plshadow.png)
 *A single point light with shadow mapping (notice the shadows cast by the ship)*
 
