@@ -103,8 +103,8 @@ a.typo {
   overflow: hidden; }
   .header h1 {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 96px;
+    font-size: 36px;
+    line-height: 64px;
     letter-spacing: -1px;
     white-space: nowrap; }
 
