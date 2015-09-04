@@ -87,7 +87,7 @@ div.row {
 #imageThumb {
 	border-width: 5px;
 	border-style: solid;
-	border-color: #01B7E5;
+	border-color: #FFFFFF;
 }
 
 #imageThumb div {
@@ -100,7 +100,7 @@ div.row {
 	#imageThumb {
 		border-width: 3px;
 		border-style: solid;
-		border-color: #01B7E5;
+		border-color: #FFFFFF;
 	}
 
 	#imageThumb .wrap {
