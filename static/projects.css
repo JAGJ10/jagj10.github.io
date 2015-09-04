@@ -62,17 +62,17 @@ div.lefttile {
 	float: left;
 	position: relative;
 	text-align: center;
-	width: 47.5%;
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
+	width: 49%;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
 }
 
 div.righttile {
 	float: right;
 	position: relative;
-	width: 47.5%;
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
+	width: 49%;
+	margin-bottom: 0.5%;
+	margin-top: 0.5%;
 }
 
 div.projectmenu {
@@ -80,12 +80,12 @@ div.projectmenu {
 }
 
 div.row {
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 }
 
 #imageThumb {
-	border-width: 5px;
+	border-width: 3px;
 	border-style: solid;
 	border-color: #FFFFFF;
 }
@@ -96,7 +96,7 @@ div.row {
 	transition: all .5s;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
 	#imageThumb {
 		border-width: 3px;
 		border-style: solid;
