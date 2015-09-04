@@ -98,7 +98,7 @@ a.typo {
 
 .header {
   color: white;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
   cursor: default;
   overflow: hidden; }
   .header h1 {
