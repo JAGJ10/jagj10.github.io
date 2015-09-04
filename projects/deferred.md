@@ -1,6 +1,7 @@
 ---
 layout:     page
-title:      "Deferred Shading Engine"
+title:      Deferred Shading Engine
+subtitle:	Deferred Shading Engine
 section:	index
 style:		dark
 ---

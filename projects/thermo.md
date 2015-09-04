@@ -1,6 +1,7 @@
 ---
 layout:     page
-title:      "Thermo"
+title:      Thermo
+subtitle:	Thermo
 section:	index
 style:		dark
 ---

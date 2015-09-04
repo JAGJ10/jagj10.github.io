@@ -1,6 +1,7 @@
 ---
 layout:     page
-title:      "Fluid-Cloth Two-Way Coupling"
+title:      Fluid-Cloth Two-Way Coupling
+subtitle:	Fluid-Cloth Two-Way Coupling
 section:	index
 style:		dark
 ---
