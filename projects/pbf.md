@@ -1,6 +1,7 @@
 ---
 layout:     page
-title:      "Position Based Fluids"
+title:      Position Based Fluids
+subtitle:	Position Based Fluids
 section:	index
 style:		dark
 ---
