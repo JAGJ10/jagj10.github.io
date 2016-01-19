@@ -32,7 +32,7 @@ The second major challenge was trying to enable the player to walk around the pe
 Of course, determining whether you are on a wall, upside-down, or rightside-up becomes much trickier when your "terrain" is just points floating in space. While this might be a complete and total hack (and I'm still not proud of it) I overcame this by checking each possible state that you could be in based on your position relative to the closest jelly points. Stated simply, I found the closest jelly point to the player (simple distance check once you are "inside" a polygon) and then checked your location relative to that jelly point's two neighbors. Once I figured out which wall, ceiling, or floor you were on, it became possible to then move in the appropriate direction.
 
 ### Acknowledgements ###
-I would like to personally my advisor [Walker White](https://www.cs.cornell.edu/~wmwhite/) for his support of the project and all of the different ideas he let me bounce off him. I would also like to thank [Ian Snyder](http://ianiselsewhere.com/) for taking the time to answer my questions and generously explaining some of his implementation.
+I would like to personally thank my advisor [Walker White](https://www.cs.cornell.edu/~wmwhite/) for his support of the project and all of the different ideas he let me bounce off him. A special thanks goes to [Ian Snyder](http://ianiselsewhere.com/) for taking the time to answer my questions and generously explaining some of his implementation.
 
 ### Screenshots ###
 ![A level from the game](../images/rebound2.png)
