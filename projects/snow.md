@@ -12,10 +12,10 @@ style:		dark
 *A frame from a Snowball Drop scene.*
 
 ### Overview ###
-This is an implementation of the paper [A material point method for snow simulation](https://www.math.ucla.edu/~jteran/papers/SSCTS13.pdf) (Stomakhin 2013) that I worked on with [Jeremy Cytryn](http://www.jeremycytryn.com/) as a final project for our Physically Based Animation class. Additionally, we successfully ported the method to the GPU via CUDA which allowed us to greatly increase the simulation times for our scenes.  
-
+This is an implementation of the paper [A material point method for snow simulation](https://www.math.ucla.edu/~jteran/papers/SSCTS13.pdf) (Stomakhin 2013) that I worked on with [Jeremy Cytryn](http://www.jeremycytryn.com/) as a final project for our Physically Based Animation class. Additionally, we successfully ported the method to the GPU via CUDA which allowed us to greatly increase the simulation times for our scenes.
+<pre></pre>
 This project was developed during Spring 2015.  
-
+<pre></pre>
 The code is also available at my [github repository](https://github.com/JAGJ10/Snow).
 
 ### Challenges ###
