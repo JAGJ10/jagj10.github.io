@@ -30,7 +30,7 @@ Many of the parameters from the paper could be tweaked further to get a more rea
 
 ### Video ###
 <iframe width="100%" height="720" src="https://www.youtube.com/embed/Z9lHpgAtsqg" frameborder="0" allowfullscreen></iframe>
-*Approximately 16k particles shown at around quarter-speed and rendered in 5 minutes*
+*Approximately 16k particles shown in slow-motion and rendered in 5 minutes*
 
 ### Resources ###
 
