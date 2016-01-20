@@ -37,7 +37,6 @@ I would like to personally thank my advisor [Walker White](https://www.cs.cornel
 ### Screenshots ###
 ![A level from the game](../images/rebound2.png)
 *A simple level from the game*
-<pre></pre>
+<pre></pre><pre></pre><pre></pre>
 ![A level from the game](../images/rebound3.png)
 *This level is divided up into two "gravity" zones (idea borrowed from The Floor is Jelly)*
-<pre></pre>
