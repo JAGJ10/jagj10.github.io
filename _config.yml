@@ -7,7 +7,7 @@ url: http://jagj10.github.io
 github: jagj10
 twitter: outofdaylight
 
-highlighter: pygments
+highlighter: rouge
 permalink: /article/:title.html
 
 exclude: [readme.md]
