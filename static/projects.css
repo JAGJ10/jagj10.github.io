@@ -84,12 +84,6 @@ div.row {
 	margin-bottom: 0%;
 }
 
-#imageThumb {
-	border-width: 3px;
-	border-style: solid;
-	border-color: #FFFFFF;
-}
-
 #imageThumb div {
 	-moz-transition: all .5s;
 	-webkit-transition: all .5s;
