@@ -22,9 +22,9 @@ The code is also available at my [github repository](https://github.com/JAGJ10/H
 
 ### Future Work ###
 - Disney BRDF for realistic and diverse materials
-- A robust scene/file system for easier setup of diverse scenes
+- A robust scene/file system for easier setup of scenes
 - Importance sampling for quicker convergence
-- Additionaly light shapes (spheres, disks, etc) would be nice to have
+- Additional light shapes (spheres, disks, etc) would be nice to have
 
 ### Renders ###
 
