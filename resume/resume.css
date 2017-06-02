@@ -81,7 +81,7 @@ div#container {
 
 div#_960 {
     display: block;
-    width: 1020px;
+    width: 1080px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -268,7 +268,7 @@ h2 + h3 {
     }
 
     div.left-column {
-        width: 4.25in;
+        width: 4.75in;
     }
 
     div.right-column {
