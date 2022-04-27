@@ -237,7 +237,7 @@ h2 + h3 {
         left: 0;
         top: 0;
     }
-    
+
     header.resume h2 {
         margin: 0.5in 0 0 !important;
     }
@@ -246,11 +246,11 @@ h2 + h3 {
         padding-left: 2.5in !important;
         padding-top: 0.075in !important;
     }
-    
+
     section.resume.lower {
         margin-top: 0.25in !important;
     }
-    
+
     section.resume h2 {
         font-size: 1.4em;
     }
@@ -262,17 +262,17 @@ h2 + h3 {
         height: 1.5in !important;
         margin: 1.25in 0 0 !important;
     }
-    
+
     header.resume address a {
         text-decoration: none !important;
     }
 
     div.left-column {
-        width: 4.75in;
+        width: 5.25in;
     }
 
     div.right-column {
-        width: 2.50in;
+        width: 2.25in;
     }
 
     header#logo a {
